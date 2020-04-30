@@ -8,9 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
   text = true;
+  option: string;
 
   displayText() {
     console.log('display text', !this.text)
     return this.text = !this.text
+  }
+
+  changeOption(value) {
+    console.log('Change Option', value)
+    this.option = value
   }
 }
