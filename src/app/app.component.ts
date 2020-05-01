@@ -19,4 +19,9 @@ export class AppComponent  {
     console.log('Change Option', value)
     this.option = value
   }
+
+  apply(color: string, fontSize: number): void {
+    this.color = color;
+    this.fontSize = fontSize;
+  }
 }
