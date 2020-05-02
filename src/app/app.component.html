@@ -42,5 +42,23 @@ Notice that in the ng-style specification we have single quotes around backgroun
     </span>
   </div>
  
+<h2>NgFor</h2>
+<!-- {{peopleByCity | json}} -->
 
+<h4>List of objects</h4>
 
+<div *ngFor="let item of peopleByCity">
+  <h2> {{ item.city }}</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      </tr>
+  </thead>
+  <tr *ngFor="let p of item.people">
+    <td>{{ p.name}}</td>
+    <td>{{ p.age}}</td>
+  </tr>
+</table>
+</div>

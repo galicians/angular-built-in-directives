@@ -24,4 +24,23 @@ export class AppComponent  {
     this.color = color;
     this.fontSize = fontSize;
   }
+
+  //data for NgFor:
+
+  peopleByCity = [
+    {
+      city: 'Miami',
+      people: [
+        { name: 'John', age: 12 },
+        { name: 'Angel', age: 22 }
+      ]
+    },
+    {
+      city: 'Sao Paulo',
+      people: [
+        { name: 'Anderson', age: 35 },
+        { name: 'Felipe', age: 36 }
+      ]
+    }
+  ]
 }
