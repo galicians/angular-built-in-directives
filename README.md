@@ -1,3 +1,3 @@
-# angular-ksdnqn
+# angular-directives
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ksdnqn)
+[Edit on StackBlitz (https://stackblitz.com/edit/angular-ngdirectives)
