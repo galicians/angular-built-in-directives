@@ -47,8 +47,8 @@ Notice that in the ng-style specification we have single quotes around backgroun
 
 <h4>List of objects</h4>
 
-<div *ngFor="let item of peopleByCity">
-  <h2> {{ item.city }}</h2>
+<div *ngFor="let item of peopleByCity; let num = index">
+  <h2> {{num+1}}.- {{ item.city }}</h2>
 <table>
   <thead>
     <tr>
